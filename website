@@ -1,0 +1,19 @@
+magic8manager
+│
+├── index.html
+├── about.html
+├── leadership-development.html
+├── executive-coaching.html
+├── team-performance.html
+├── organisational-change.html
+├── resources.html
+├── insights.html
+├── contact.html
+│
+├── styles.css
+├── script.js
+│
+└── images
+    ├── hero.jpg
+    ├── ian.jpg
+    └── logo.png
