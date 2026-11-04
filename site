@@ -1,0 +1,349 @@
+magic8manager/
+│
+├── index.html
+├── about.html
+├── leadership-development.html
+├── executive-coaching.html
+├── team-performance.html
+├── organisational-change.html
+├── resources.html
+├── insights.html
+├── daily-quotes.html
+├── contact.html
+│
+├── styles.css
+├── script.js
+│
+└── images/
+├── hero.jpg
+├── ian.jpg
+└── logo.png
+Shared Header (Use on Every Page)
+HTML
+<header class="header">
+<div class="logo">
+Magic 8 Manager
+</div>
+ 
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="leadership-development.html">Leadership</a>
+<a href="executive-coaching.html">Coaching</a>
+<a href="team-performance.html">Teams</a>
+<a href="organisational-change.html">Change</a>
+<a href="resources.html">Resources</a>
+<a href="insights.html">Insights</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+index.html
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic 8 Manager</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+ 
+<header class="header">
+<div class="logo">Magic 8 Manager</div>
+<nav>
+<a href="about.html">About</a>
+<a href="leadership-development.html">Leadership</a>
+<a href="executive-coaching.html">Coaching</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+ 
+<section class="hero">
+ 
+<div class="hero-content">
+ 
+<h1>Leadership That Creates Lasting Change</h1>
+ 
+<p>
+Helping leaders, teams and organisations unlock exceptional performance through transformational coaching, leadership development and organisational change.
+</p>
+ 
+<a href="contact.html" class="btn">
+Book a Discovery Call
+</a>
+ 
+</div>
+ 
+</section>
+ 
+<section class="section">
+ 
+<h2>How We Help</h2>
+ 
+<div class="cards">
+ 
+<div class="card">
+<h3>Leadership Development</h3>
+<p>Develop leaders who inspire performance.</p>
+</div>
+ 
+<div class="card">
+<h3>Executive Coaching</h3>
+<p>Unlock confidence, clarity and impact.</p>
+</div>
+ 
+<div class="card">
+<h3>Team Performance</h3>
+<p>Build trust, collaboration and accountability.</p>
+</div>
+ 
+</div>
+ 
+</section>
+ 
+<footer>
+<p>© 2026 Magic 8 Manager</p>
+</footer>
+ 
+</body>
+</html>
+about.html
+
+Use the content you approved:
+
+HTML
+<section class="page-banner">
+<h1>Meet Ian Pearson</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>Leadership Development Specialist</h2>
+ 
+<p>
+Leadership is not simply about managing people. It is about creating the conditions for others to succeed.
+</p>
+ 
+<p>
+Throughout my career I have been been passionate about helping individuals, leaders and organisations unlock their potential and achieve exceptional outcomes.
+</p>
+ 
+</section>
+leadership-development.html
+HTML
+<section class="page-banner">
+<h1>Leadership Development</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>Developing Leaders for a Changing World</h2>
+ 
+<p>
+Organisations need leaders who can navigate uncertainty, inspire action and create environments where people perform at their best.
+</p>
+ 
+<ul>
+<li>Leading Self</li>
+<li>Leading Others</li>
+<li>Leading Teams</li>
+<li>Leading Change</li>
+<li>Strategic Leadership</li>
+</ul>
+ 
+</section>
+executive-coaching.html
+HTML
+<section class="page-banner">
+<h1>Executive Coaching</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>Unlock Your Leadership Potential</h2>
+ 
+<p>
+Executive coaching provides a confidential space to reflect, challenge assumptions and develop new perspectives.
+</p>
+ 
+</section>
+team-performance.html
+HTML
+<section class="page-banner">
+<h1>Team Performance</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>High Performing Teams</h2>
+ 
+<p>
+The best teams are built deliberately.
+</p>
+ 
+<ul>
+<li>Communication</li>
+<li>Trust</li>
+<li>Accountability</li>
+<li>Collaboration</li>
+<li>Continuous Improvement</li>
+</ul>
+ 
+</section>
+organisational-change.html
+HTML
+<section class="page-banner">
+<h1>Organisational Change</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>Creating Change That Sticks</h2>
+ 
+<p>
+Most change initiatives fail because they focus on processes while overlooking people.
+</p>
+ 
+</section>
+resources.html
+HTML
+<section class="page-banner">
+<h1>Leadership Resources</h1>
+</section>
+ 
+<section class="section">
+ 
+<ul>
+<li>Leadership Guides</li>
+<li>Team Development Tools</li>
+<li>Coaching Worksheets</li>
+<li>Change Frameworks</li>
+</ul>
+ 
+</section>
+insights.html
+HTML
+<section class="page-banner">
+<h1>Leadership Insights</h1>
+</section>
+ 
+<section class="section">
+ 
+<div class="card">
+<h3>Developing Future Leaders</h3>
+<p>Practical leadership development strategies.</p>
+</div>
+ 
+<div class="card">
+<h3>Leading Through Change</h3>
+<p>Supporting people during transformation.</p>
+</div>
+ 
+</section>
+daily-quotes.html
+HTML
+<section class="page-banner">
+<h1>Magic 8 Daily Inspiration</h1>
+</section>
+ 
+<section class="section">
+ 
+<div class="quote-box">
+ 
+<p id="quote">
+Leadership is not about being the best. It is about helping others become their best.
+</p>
+ 
+<button onclick="newQuote()">
+New Quote
+</button>
+ 
+</div>
+ 
+</section>
+ 
+<script src="script.js"></script>
+contact.html
+HTML
+<section class="page-banner">
+<h1>Contact</h1>
+</section>
+ 
+<section class="section">
+ 
+<h2>Let's Start A Conversation</h2>
+ 
+<form>
+ 
+<input type="text" placeholder="Name">
+ 
+<input type="email" placeholder="Email">
+ 
+<textarea placeholder="Message"></textarea>
+ 
+<button type="submit">
+Send Message
+</button>
+ 
+</form>
+ 
+<p>
+Email: ian@ianpearsoncoaching.co.uk
+</p>
+ 
+</section>
+script.js
+JavaScript
+const quotes = [
+ 
+"Leadership is not about being the best. It is about helping others become their best.",
+ 
+"Growth begins where comfort ends.",
+ 
+"The culture you create is the legacy you leave.",
+ 
+"Success is built through consistency not intensity.",
+ 
+"Every challenge carries the seed of opportunity."
+ 
+];
+ 
+function newQuote(){
+ 
+const random =
+quotes[Math.floor(Math.random()*quotes.length)];
+ 
+document.getElementById("quote").innerText =
+random;
+
+
+}
+styles.css
+CSS
+:root{
+--navy:#081C3A;
+--gold:#D4AF37;
+--light:#F5F7FA;
+--white:#FFFFFF;
+}
+ 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+ 
+body{
+font-family:Inter,sans-serif;
+background:var(--light);
+line-height:1.7;
+}
+ 
+.header{
+background:rgba(8,28,58,.95);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding
